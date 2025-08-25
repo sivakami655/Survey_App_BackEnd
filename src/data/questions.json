@@ -1,0 +1,96 @@
+[
+  {
+    "title": "What is your age group?",
+    "description": "Select your age range.",
+    "isRequired": true,
+    "inputType": "single-choice",
+    "options": [
+      { "value": "Under 18" },
+      { "value": "18-24" },
+      { "value": "25-34" },
+      { "value": "35-44" },
+      { "value": "45-54" },
+      { "value": "55-64" },
+      { "value": "65+" }
+    ]
+  },
+  {
+    "title": "What is your gender?",
+    "description": "Select your gender.",
+    "isRequired": true,
+    "inputType": "single-choice",
+    "options": [
+      { "value": "Male" },
+      { "value": "Female" },
+      { "value": "Other" },
+      { "value": "Prefer not to say" }
+    ]
+  },
+  {
+    "title": "What is your highest level of education?",
+    "description": "Select your education level.",
+    "isRequired": true,
+    "inputType": "single-choice",
+    "options": [
+      { "value": "No formal education" },
+      { "value": "High school" },
+      { "value": "Associate degree" },
+      { "value": "Bachelor's degree" },
+      { "value": "Master's degree" },
+      { "value": "Doctorate or higher" }
+    ]
+  },
+  {
+    "title": "How would you describe your current health status?",
+    "description": "Select your health status.",
+    "isRequired": true,
+    "inputType": "single-choice",
+    "options": [
+      { "value": "Excellent" },
+      { "value": "Good" },
+      { "value": "Fair" },
+      { "value": "Poor" }
+    ]
+  },
+  {
+    "title": "Do you have any chronic health conditions?",
+    "description": "Select all that apply.",
+    "isRequired": false,
+    "inputType": "multi-choice",
+    "options": [
+      { "value": "None" },
+      { "value": "Diabetes" },
+      { "value": "Hypertension" },
+      { "value": "Heart disease" },
+      { "value": "Asthma" },
+      { "value": "Other" }
+    ]
+  },
+  {
+    "title": "What is your annual household income?",
+    "description": "Select your income range.",
+    "isRequired": true,
+    "inputType": "single-choice",
+    "options": [
+      { "value": "Less than $25,000" },
+      { "value": "$25,000 - $49,999" },
+      { "value": "$50,000 - $74,999" },
+      { "value": "$75,000 - $99,999" },
+      { "value": "$100,000 or more" }
+    ]
+  },
+  {
+    "title": "What is your current employment status?",
+    "description": "Select your employment status.",
+    "isRequired": true,
+    "inputType": "single-choice",
+    "options": [
+      { "value": "Employed full-time" },
+      { "value": "Employed part-time" },
+      { "value": "Unemployed" },
+      { "value": "Student" },
+      { "value": "Retired" },
+      { "value": "Other" }
+    ]
+  }
+]
